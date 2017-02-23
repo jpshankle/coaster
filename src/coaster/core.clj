@@ -7,7 +7,7 @@
   "create a simple coaster"
   []
   (minkowski
-    (cube 70 70 2)
+    (cube 85 85 3)
     (->>
       (cylinder 3 1)
       (with-fn 40))))
